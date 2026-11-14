@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Selected frontend and full-stack work by Fasna, including the Felt & Flow marketplace.">
+	<meta name="theme-color" content="#f5f4ed">
+	<title>Fasna | Web Developer</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<header class="site-header">
+		<nav class="nav shell" aria-label="Main navigation">
+			<a class="wordmark" href="#home" aria-label="Fasna, home">f<span>.</span></a>
+			<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+				<span></span><span></span>
+			</button>
+			<div class="nav-links" id="nav-links">
+				<a href="#work">Work <span>05</span></a>
+				<a href="#about">About</a>
+				<a class="nav-cta" href="#django">Live project <span aria-hidden="true">&#8599;</span></a>
+			</div>
+		</nav>
+	</header>
+
+	<main id="home">
+		<section class="hero shell" aria-labelledby="hero-title">
+			<div class="hero-copy">
+				<p class="eyebrow"><span class="status-dot"></span> Frontend &amp; full-stack developer</p>
+				<h1 id="hero-title">Thoughtful<br>websites, built<br><span>to work.</span></h1>
+				<p class="intro">I'm Fasna. I build responsive interfaces and full-stack web experiences, with care for how every detail looks and works.</p>
+				<a class="text-link" href="#work">Explore selected work <span aria-hidden="true">&#8595;</span></a>
+			</div>
+			<div class="hero-art" aria-label="A preview of selected web projects">
+				<p class="art-label">DESIGN / BUILD / ITERATE</p>
+				<div class="art-window window-main">
+					<img src="../project2/project2.jpeg" alt="Indochino storefront preview">
+					<span class="window-tag">01 / FRONTEND</span>
+				</div>
+				<div class="art-window window-small">
+					<img src="../project3/food1.jpg" alt="Smokehouse restaurant website preview">
+					<span class="window-tag">02 / BRAND SITE</span>
+				</div>
+				<span class="art-stamp" aria-hidden="true">WEB<br>WORK<br><small>2025-26</small></span>
+				<span class="art-index" aria-hidden="true">FIG. 01</span>
+			</div>
+		</section>
+
+		<section class="work-section" id="work" aria-labelledby="work-title">
+			<div class="shell">
+				<div class="section-heading">
+					<div><p class="eyebrow">A few things I've made</p><h2 id="work-title">Selected work<span>.</span></h2></div>
+					<p class="section-note">Frontend concepts and a full-stack marketplace, each built around a distinct audience and experience.</p>
+				</div>
+
+				<div class="project-grid">
+					<article class="project-card project-featured django-card" id="django">
+						<a class="project-image felt-image" href="https://feltandflow.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the live Felt and Flow marketplace">
+							<img src="felt-and-flow-preview.png" alt="Screenshot of the Felt and Flow storefront with its navigation and featured shopping collection">
+							<span class="image-arrow" aria-hidden="true">&#8599;</span>
+						</a>
+						<div class="project-meta"><span>01</span><span>Full-stack / E-commerce</span></div>
+						<div class="project-title-row"><h3><a href="https://feltandflow.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Felt &amp; Flow</a></h3><span>Live on PythonAnywhere</span></div>
+						<p class="project-description">A Django marketplace with product listings, customer accounts, cart, wishlist, checkout, order tracking, and a retailer dashboard.</p>
+						<ul class="tag-list" aria-label="Technologies"><li>Python</li><li>Django</li><li>SQLite</li><li>HTML</li><li>CSS</li></ul>
+						<a class="live-link" href="https://feltandflow.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Visit live project <span aria-hidden="true">&#8599;</span></a>
+					</article>
+
+					<article class="project-card project-featured">
+						<a class="project-image luma-image" href="https://fasna-u.github.io/Luma/" aria-label="Open Luma Living storefront">
+							<img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Modern workspace featured in the Luma Living storefront">
+							<span class="image-arrow" aria-hidden="true">&#8599;</span>
+						</a>
+						<div class="project-meta"><span>02</span><span>Storefront / Responsive UI</span></div>
+						<div class="project-title-row"><h3><a href="https://fasna-u.github.io/Luma/">Luma Living</a></h3><span>2026</span></div>
+						<p class="project-description">A polished furniture storefront with an editorial feel, responsive product browsing, and interactive details.</p>
+						<ul class="tag-list" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+					</article>
+
+					<article class="project-card indochino-card">
+						<a class="project-image" href="https://fasna-u.github.io/INDOCHINO/" aria-label="Open Indochino storefront">
+							<img src="../project2/men1.png" alt="Model in a navy made-to-measure suit, featured on the Indochino page">
+							<span class="image-arrow" aria-hidden="true">&#8599;</span>
+						</a>
+						<div class="project-meta"><span>03</span><span>Retail / Landing page</span></div>
+						<div class="project-title-row"><h3><a href="https://fasna-u.github.io/INDOCHINO/">Indochino</a></h3><span>2025</span></div>
+						<p class="project-description">A confident retail landing page for a made-to-measure menswear experience.</p>
+						<ul class="tag-list" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>Bootstrap</li></ul>
+					</article>
+
+					<article class="project-card">
+						<a class="project-image smoke-image" href="https://fasna-u.github.io/4_Rivers/" aria-label="Open 4 Rivers Smokehouse website">
+							<img src="../project3/food1.jpg" alt="4 Rivers Smokehouse restaurant website preview">
+							<span class="image-arrow" aria-hidden="true">&#8599;</span>
+						</a>
+						<div class="project-meta"><span>04</span><span>Hospitality / Brand site</span></div>
+						<div class="project-title-row"><h3><a href="https://fasna-u.github.io/4_Rivers/">4 Rivers Smokehouse</a></h3><span>2025</span></div>
+						<p class="project-description">A bold restaurant concept using food photography and immersive, full-width sections.</p>
+						<ul class="tag-list" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>Bootstrap</li></ul>
+					</article>
+
+					<article class="project-card">
+						<a class="project-image mentor-image" href="https://fasna-u.github.io/Mentor/" aria-label="Open Mentor learning website">
+							<img src="../project1/MENTOR.webp" alt="Mentor learning platform website preview">
+							<span class="image-arrow" aria-hidden="true">&#8599;</span>
+						</a>
+						<div class="project-meta"><span>05</span><span>Education / Responsive UI</span></div>
+						<div class="project-title-row"><h3><a href="https://fasna-u.github.io/Mentor/">Mentor</a></h3><span>2025</span></div>
+						<p class="project-description">A welcoming education website designed to make courses and learning paths easy to explore.</p>
+						<ul class="tag-list" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>Bootstrap</li></ul>
+					</article>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="about-section" id="about" aria-labelledby="about-title">
+			<div class="shell about-grid">
+				<div><p class="eyebrow">How I like to work</p><h2 id="about-title">Good design is<br><span>only the start.</span></h2></div>
+				<div class="about-copy">
+					<p>I care about the whole experience: how a page reads, how it behaves on a phone, and how the pieces fit together behind the interface.</p>
+					<div class="capability-list">
+						<div><span>01</span><div><h3>Frontend</h3><p>Responsive layouts, semantic HTML, CSS, JavaScript, and Bootstrap.</p></div></div>
+						<div><span>02</span><div><h3>Full-stack</h3><p>Django views and models, database-backed commerce flows, and customer and retailer experiences.</p></div></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-section" aria-labelledby="contact-title">
+			<div class="shell contact-inner">
+			<div><p class="eyebrow">Full-stack / live</p><h2 id="contact-title">From product idea<br><span>to a live store.</span></h2></div>
+			<a class="contact-link" href="https://feltandflow.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Visit Felt &amp; Flow <span aria-hidden="true">&#8599;</span></a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="shell footer-inner">
+			<a class="wordmark" href="#home" aria-label="Back to top">f<span>.</span></a>
+			<p>Designed and built by Fasna <span>2026</span></p>
+			<a href="#home">Back to top <span aria-hidden="true">&#8593;</span></a>
+		</div>
+	</footer>
+
+	<script>
+		const menuToggle = document.querySelector('.menu-toggle');
+		const navLinks = document.querySelector('.nav-links');
+
+		menuToggle.addEventListener('click', () => {
+			const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+			menuToggle.setAttribute('aria-expanded', String(!isOpen));
+			menuToggle.setAttribute('aria-label', isOpen ? 'Open navigation' : 'Close navigation');
+			navLinks.classList.toggle('is-open', !isOpen);
+		});
+
+		navLinks.querySelectorAll('a').forEach((link) => {
+			link.addEventListener('click', () => {
+				menuToggle.setAttribute('aria-expanded', 'false');
+				menuToggle.setAttribute('aria-label', 'Open navigation');
+				navLinks.classList.remove('is-open');
+			});
+		});
+	</script>
+</body>
+</html>
